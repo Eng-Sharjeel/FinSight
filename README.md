@@ -15,7 +15,6 @@
 
 ## Installation and Setup Guide
 
-### 1. create and activate virtual environment
 1. create a virtual environment:
 
    ```sh
