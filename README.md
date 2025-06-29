@@ -21,3 +21,26 @@
 - **PDF Parsing:** `PyPDFLoader`  
 - **News Loader:** `UnstructuredURLLoader`  
 - **Data Viz:** `Matplotlib`, `Seaborn`
+
+## ⚙️ Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/FinSightAI.git
+cd FinSightAI
+
+# 2. Create and activate a virtual environment
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Add API keys in .env file
+touch .env
+
+# 5. Run the Streamlit app
+streamlit run app.py
