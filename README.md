@@ -36,5 +36,28 @@
    pip install -r requirements.txt
     ```
 4. Add API keys in .env file
-* Create a **.env** file to store your private API keys for Groq, and Gemini.
+
+Create a **.env** file to store your private API keys for Groq, and Gemini.
+
+## Tools and Technologies Used
+- **Programming Language:** Python 3.13
+- **Framework:** Streamlit
+- **AI APIs:**
+  - Google Generative AI (Gemini)
+  - GROQ (LLaMA3, Mixtral)
+- **Libraries & Packages:**
+  - `streamlit` – UI framework
+  - `python-dotenv` – For environment variable management
+  - `google-generativeai` – Gemini embeddings and models
+  - `langchain` – RAG pipeline and LLM orchestration
+  - `faiss-cpu` – Vector store for similarity search
+  - `PyPDFLoader`, `UnstructuredURLLoader` – Data ingestion from PDFs and URLs
+  - `matplotlib`, `seaborn`, `pandas` – CSV analysis and visualizations
+
+## How to Run
+- Open terminal in VS Code and run the command:
    
+   ```sh
+  streamlit run app.py
+   ```
+
