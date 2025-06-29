@@ -1,46 +1,41 @@
-# FinSight
+# FinSight AI
 
+## Introduction
 **FinSight AI** is an AI-powered RAG web application that helps financial analysts, researchers, and professionals extract insights from **PDF reports**, **news URLs**, and **CSV datasets** using advanced LLMs and embeddings.
 
 ## 🚀 Features
 
-✅ Upload and analyze **financial PDFs**  
-✅ Summarize and chat with **news articles** (URL input)  
-✅ Explore and visualize **CSV financial data**  
-✅ Ask financial questions 
-✅ Built-in **retrieval-augmented generation (RAG)** pipeline  
-✅ Source tracking, chat history download, and summaries  
-✅ Clean, responsive UI with multi-page navigation
+- Upload and analyze **financial PDFs**  
+- Summarize and chat with **news articles** (URL input)  
+- Explore and visualize **CSV financial data**  
+- Ask financial questions 
+- Built-in **retrieval-augmented generation (RAG)** pipeline  
+- Source tracking, chat history download, and summaries  
+- Clean, responsive UI with multi-page navigation
 
-## 🧠 Tech Stack
+## Installation and Setup Guide
 
-- **Frontend:** Streamlit  
-- **LLMs:** [Groq](https://groq.com/) (LLaMA3, Mixtral), [Gemini (Google)](https://ai.google.dev/)  
-- **RAG Pipeline:** LangChain + FAISS + Custom prompts  
-- **Embeddings:** `GoogleGenerativeAIEmbeddings`  
-- **PDF Parsing:** `PyPDFLoader`  
-- **News Loader:** `UnstructuredURLLoader`  
-- **Data Viz:** `Matplotlib`, `Seaborn`
+### 1. create and activate virtual environment
+1. create a virtual environment:
 
-## ⚙️ Setup Instructions
+   ```sh
+   python -m venv venv
+    ```
+2. activate the virtual environment for windows:
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/FinSightAI.git
-cd FinSightAI
+   ```sh
+   venv\Scripts\activate
+    ```
+3. activate the virtual environment for mac:
 
-# 2. Create and activate a virtual environment
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
+   ```sh
+   source venv/bin/activate
+    ```
+4. install requirements using pip:
 
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Add API keys in .env file
-touch .env
-
-# 5. Run the Streamlit app
-streamlit run app.py
+   ```sh
+   pip install -r requirements.txt
+    ```
+4. Add API keys in .env file
+* Create a **.env** file to store your private API keys for Groq, and Gemini.
+   
