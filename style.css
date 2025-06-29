@@ -1,0 +1,108 @@
+.main-card {
+    background: #f9f9fb;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.05);
+}
+
+/* Styling for main heading */
+.main-card h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+}
+
+/* Styling for main paragraph */
+.main-card p {
+    color: #22356F;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Styling for h3 inside main-card */
+.main-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+html, body, [class*="css"]  {
+    font-family: 'Inter', sans-serif;
+    background: #F6F8FB;
+    color: #22356F;
+}
+h1, h2, h3, h4 {
+    font-weight: 800;
+    color: #1976D2;
+}
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #fff !important;
+    color: #22356F !important;
+    border-right: 1.5px solid #E3EAF2;
+    min-width: 270px;
+    max-width: 300px;
+}
+.sidebar-content {
+    background: #F6F8FB;
+    border-radius: 16px;
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+    color: #22356F;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.05);
+    border: 1px solid #E3EAF2;
+}
+.stSidebar h2, .stSidebar h4 {
+    color: #1976D2 !important;
+}
+/* Sidebar button style */
+.stSidebar button {
+    background: #F6F8FB !important;
+    color: #1976D2 !important;
+    border: 2px solid #E3EAF2 !important;
+    border-radius: 8px !important;
+    margin-bottom: 0.7rem !important;
+    font-weight: 600 !important;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.03);
+    transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.stSidebar button:focus, .stSidebar button:active, .stSidebar button:hover {
+    background: #1976D2 !important;
+    color: #fff !important;
+    border: 2px solid #1976D2 !important;
+}
+/* Card style for main panels */
+.main-card {
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 4px 32px rgba(25,118,210,0.10);
+    padding: 2.5rem 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #E3EAF2;
+}
+/* Main button style */
+.main-btn {
+    background: #1976D2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.12);
+    cursor:pointer;
+    transition: background 0.2s;
+}
+.main-btn:hover {
+    background: #1565C0;
+}
+/* Info badge */
+.info-badge {
+    background: #E3EAF2;
+    color: #1976D2;
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-block;
+}
